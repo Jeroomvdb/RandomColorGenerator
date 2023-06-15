@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="row orange-text darken-4">
+    <div class="col s3">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">home</i>Random Color Generator</div>
+                <div class="collapsible-body white"><span>Hi! <br><br>Welcome to the random color generator. <br><br> Have you ever been out of inspiration about which color to use? Then you have come to the right place!</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">info</i>How To Use</div>
+                <div class="collapsible-body white">
+                    <span>-Move your mouse around to find your perfect color.<br><br>-Click to get the RGB code of your favorite color.</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Daily Color</div>
+                <div class="collapsible-body white btn-parent">
+                    <span>Click the button to get the daily color!</span><br><br>
+                    <a class="waves-effect waves-light btn-large orange btn-resize" onclick="generateRandomColor()"><i class="material-icons">play_arrow</i></a>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">content_paste</i>Your Colors</div>
+                <div class="collapsible-body white btn-parent">
+                    <div id="colorImages" class="row">
+                        <!-- <div style="width: 50px; height: 50px; background:rgb(123,123,123);"></div> -->
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>

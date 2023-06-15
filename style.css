@@ -1,0 +1,8 @@
+.btn-parent {
+    text-align: center;
+}
+
+.btn-resize {
+    display: inline-block;
+    width: 40%;
+}
