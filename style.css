@@ -6,3 +6,8 @@
     display: inline-block;
     width: 40%;
 }
+
+.swal2-close {
+    display: none !important;
+  }
+  
